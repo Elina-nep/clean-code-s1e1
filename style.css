@@ -29,7 +29,7 @@
   margin: 0 auto;
 }
 
-.task {
+.task-item {
   width: 56%;
   display: inline-block;
   flex-grow: 1
@@ -147,11 +147,11 @@
   display: none
 }
 
-.editMode .todo-item {
+.edit-mode .todo-item {
   display: inline-block;
   width: 224px
 }
 
-.editMode .label {
+.edit-mode .label {
   display: none;
 }
