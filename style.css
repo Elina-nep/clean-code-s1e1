@@ -35,7 +35,7 @@
   flex-grow: 1
 }
 
-.task-row-wrapper {
+.task-wrapper {
   display: flex;
 }
 
@@ -45,7 +45,7 @@
   list-style: none;
 }
 
-.outline {
+.no-outline {
   outline: none;
 }
 
