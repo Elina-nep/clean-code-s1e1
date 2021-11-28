@@ -19,9 +19,11 @@
 }
 
 @media (max-width: 768px) {
+
   .header {
     text-align: center;
   }
+
 }
 
 .wrapper {
@@ -151,8 +153,3 @@
   display: inline-block;
   width: 224px
 }
-
-
-/* .edit-mode .lists__label {
-  display: none;
-} */
