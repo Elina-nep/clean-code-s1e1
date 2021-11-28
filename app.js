@@ -1,6 +1,5 @@
-//Document is the DOM can be accessed in the console with docu
-ent.window.
-  // Tree is from the top, html, body, p etc.
+//Document is the DOM can be accessed in the console with document.window.
+// Tree is from the top, html, body, p etc.
 
 //Problem: User interaction does not provide the correct results.
 //Solution: Add interactivity so the user can manage daily tasks.
@@ -34,18 +33,22 @@ var createNewTaskElement = function(taskString) {
   var deleteButtonImg = document.createElement("img"); //delete button image
 
   label.innerText = taskString;
-  label.className = 'task';
+  label.className = 'task label';
 
   //Each elements, needs appending
   checkBox.type = "checkbox";
+  checkBox.className = "checkbox"
   editInput.type = "text";
-  editInput.className = "task";
+  editInput.className = "task text-input todo-item";
 
   editButton.innerText = "Edit"; //innerText encodes special characters, HTML does not.
-  editButton.className = "edit";
+  editButton.className = "edit button outline";
 
-  deleteButton.className = "delete";
-  deleteButtonImg.src = './remove.svg';
+  listItem.className = "list-item";
+
+  deleteButton.className = "delete button outline";
+  deleteButtonImg.src = "./remove.svg";
+  deleteButtonImg.classList = "remove-img"
   deleteButton.appendChild(deleteButtonImg);
 
 
